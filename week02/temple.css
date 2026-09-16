@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chizaram Angel Chinelobi | WDD 130</title>
+    <meta name="description" content="My home page is titled with my name, Chizaramekpere, and it is part of the course WDD 130 | Web Fundamentals. The purpose of the page is to serve as my personal course home page, where I can practice and demonstrate my growing skills in web design and development. It highlights creativity, structured layout, and CSS enhancements, while also showing my progress in learning through BYU-Idaho coursework. In short, it is a space that represents my journey in web development and acts as a foundation for future projects.">
+    <meta name="author" content="Angel Chizaram Chinelobi"
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="wwr/">Rafting Website</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Angel Chizaram Chinelobi | WDD 130</h1>
+        <img src="images/profile.jpg" alt="Angel Chizaram Chinelobi Profile Picture" width="200">
+        <p>Hello! My name is Angel Chizaram Chinelobi and I am from Imo State, Nigeria. I enjoy
+            exploring
+            creativity through crocheting, singing, reading, writing, and drawing. These
+            hobbies inspire me to think outside the box and bring a creative touch to everything I
+            do. I am
+            excited to apply that same creativity and curiosity to learning web development and
+            building
+            engaging projects.</p>
+    </main>
+    <aside>
+        <h2>Nigeria</h2>
+        <img src="images/Nigeria.png" alt="The Nigerian Culture" width="200">
+        <p>Nigeria is a country located in West Africa, known for its rich cultural heritage, diverse landscapes, and vibrant traditions. It is home to over 200 million people and boasts a variety of ethnic groups, languages, and customs. Nigeria is famous for its music, art, and cuisine, as well as its contributions to literature and film. The country has a growing economy and is a hub for technology and innovation in Africa. Visitors to Nigeria can experience its bustling cities, beautiful natural scenery, and warm hospitality.</p>
+    </aside>
+    <footer>
+        <p>©️2026 🌷 Angel Chizaram Chinelobi 🌷 Imo State, Nigeria</p>
+    </footer>
+</body>
+
+</html>
