@@ -59,8 +59,14 @@ article {
 }
 
 .hero article {
-    position: relative;
-
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    width: 55%;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 1rem 1.25rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -70,7 +76,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent2-color);
+    background-color: var(--accent1-color);
     color: white;
 }
 
@@ -102,4 +108,14 @@ article img {
 .hero article img {
     float: right;
     width: 125px;
+    margin: 0 0 0.75rem 1rem;
+    border-radius: 6px;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    width: 55%;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 1rem 1.25rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
