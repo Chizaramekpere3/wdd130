@@ -1,10 +1,10 @@
 :root {
-    --primary-color: warm sand;
+    --primary-color: #d4a373;
     --secondary-color: #f4a261;
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
-    --body-font: 'Segoe UI', Tahoma, Geneva;
+    --body-font: 'Segoe UI', Tahoma, Geneva, sans-serif;
 }
 
 header {
