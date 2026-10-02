@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+main {
+    max-width: 650px;
+    margin: 30px auto;
+}
+
+h1 {
+    color: #0d4a3e;
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+h1::before {
+    content: "✓";
+    background-color: #0d4a3e;
+    color: white;
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+/* Form Container - Single Column Uniform Layout */
+.quiz-form {
+    background-color: #ffffff;
+    border: 1px solid #d1d9e0;
+    border-radius: 8px;
+    padding: 30px 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-item label {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #222;
+}
+
+.form-item label span {
+    color: #0d4a3e;
+    font-weight: 700;
+}
+
+/* Uniform styling for all inputs */
+.form-item input[type="text"],
+.form-item input[type="number"],
+.form-item select,
+.form-item textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #aab8c5;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-item input:focus,
+.form-item select:focus,
+.form-item textarea:focus {
+    outline: none;
+    border-color: #0d4a3e;
+    box-shadow: 0 0 0 3px rgba(13, 74, 62, 0.15);
+}
+
+.form-item textarea {
+    resize: vertical;
+}
+
+/* Submit Button */
+button[type="submit"] {
+    background-color: #0d4a3e;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 14px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+}
+
+button[type="submit"]:hover {
+    background-color: #116d5b;
+}
