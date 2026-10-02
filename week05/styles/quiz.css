@@ -7,7 +7,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f7f9;
-    color: #333;
+    color: #810b5b;
     line-height: 1.6;
     padding: 20px;
 }
@@ -18,7 +18,7 @@ main {
 }
 
 h1 {
-    color: #0d4a3e;
+    color: #810b5b;
     font-size: 1.7rem;
     margin-bottom: 15px;
     display: flex;
@@ -28,7 +28,7 @@ h1 {
 
 h1::before {
     content: "✓";
-    background-color: #0d4a3e;
+    background-color: #810b5b;
     color: white;
     width: 24px;
     height: 24px;
@@ -39,7 +39,6 @@ h1::before {
     border-radius: 3px;
 }
 
-/* Form Container - Single Column Uniform Layout */
 .quiz-form {
     background-color: #ffffff;
     border: 1px solid #d1d9e0;
@@ -60,15 +59,14 @@ h1::before {
 .form-item label {
     font-weight: 500;
     font-size: 1rem;
-    color: #222;
+    color: #810b5b;
 }
 
 .form-item label span {
-    color: #0d4a3e;
+    color: #810b5b;
     font-weight: 700;
 }
 
-/* Uniform styling for all inputs */
 .form-item input[type="text"],
 .form-item input[type="number"],
 .form-item select,
@@ -86,7 +84,7 @@ h1::before {
 .form-item select:focus,
 .form-item textarea:focus {
     outline: none;
-    border-color: #0d4a3e;
+    border-color: #810b5b;
     box-shadow: 0 0 0 3px rgba(13, 74, 62, 0.15);
 }
 
@@ -96,7 +94,7 @@ h1::before {
 
 /* Submit Button */
 button[type="submit"] {
-    background-color: #0d4a3e;
+    background-color: #810b5b;
     color: #ffffff;
     border: none;
     border-radius: 6px;
@@ -110,5 +108,5 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #116d5b;
+    background-color: #810b5b;
 }
