@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+:root {
+    --primary-color: #fff;
+    --secondary-color: #b4a497;
+    --accent1-color: #264653;
+    --accent2-color: #b7a474;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: 'Segoe UI', Tahoma, Geneva, sans-serif;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+}
+
+h1 {
+    text-align: center;
+    color: var(--accent1-color);
+}
+
+h2 {
+    color: var(--accent1-color);
+    text-align: center;
+}
+
+header {
+    background-color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--accent1-color);
+    border: 1px solid #000;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--accent2-color);
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: var(--primary-color);
+    border: 1px solid var(--accent1-color);
+}
+
+nav ul li {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #ccc;
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+/* --- CONTACT PAGE SPECIFIC --- */
+
+.contact-info {
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.contact-info h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.company-details p {
+    margin: 2px;
+    padding: 2px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+/* Grid: Map left, Form right - matches wireframe */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 20px 0;
+    padding: 15px;
+    align-items: start;
+}
+
+.map-container {
+    width: 100%;
+}
+
+.contact-map {
+    width: 100%;
+    height: 380px;
+    border: 1px solid #ccc;
+    /* styled here, not inline */
+}
+
+/* Form styling */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form-item {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-item label,
+.form-item legend {
+    font-size: 0.85rem;
+    text-align: right;
+}
+
+.form-item input[type="text"],
+.form-item input[type="email"],
+.form-item textarea {
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    font-family: var(--body-font);
+}
+
+.form-item fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+    display: contents;
+}
+
+.form-item fieldset label {
+    text-align: left;
+}
+
+.form-item:nth-child(3) {
+    align-items: start;
+}
+
+.form-item:nth-child(3) div {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 5px;
+}
+
+/* Message textarea full width */
+.form-item textarea {
+    height: 70px;
+    resize: none;
+}
+
+.form-item:last-of-type,
+.contact-form > .form-item:nth-last-child(2) {
+    grid-template-columns: 1fr;
+}
+
+.contact-form .checkbox-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.8rem;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 8px;
+    background-color: #e0e0e0;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+}
+
+.submit-button:hover {
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+}
+
+/* Employee Section - matches bottom wireframe */
+.employees {
+    border: 1px solid #000;
+    padding: 15px;
+    margin: 25px 0;
+}
+
+.employees h2 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.employee-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+}
+
+.employee-grid figure {
+    flex: 1;
+}
+
+.employee-grid img {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    object-fit: cover;
+}
+
+.employee-grid figcaption {
+    margin-top: 8px;
+    font-size: 0.75rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-color);
+    padding: 15px 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    flex: 1;
+    text-align: center;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img {
+    width: 40px;
+    height: 40px;
+}
