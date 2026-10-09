@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | White Water Horizons</title>
+    <title>Contact Us | White Water Horizons</title>
     <meta name="description"
-      content="White Water Horizons| Where we combine White Water rafting with the beauty of the outdoors">
+      content="White Water Horizons| For reservations, general inquiries, and rafting trip information, find our address, phone, email, and location on map.">
     <meta name="author" content="Angel Chizaram">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -25,69 +25,93 @@
     </header>
 
     <main>
-        <div class="hero">
-            <img src="images/herowwr.jpg" alt="Rafting site">
-            <h1>White Water Horizons</h1>
-            <article>
-                <img src="images/hewwr.jpg" alt="Good Customer Service" width="150">
-                <p>At Whitewater Horizons, adventure runs deep. So whether you are a first-time
-                    paddler or a seasoned adventurer, our expert
-                    guides ensure every trip is
-                    safe, fun, and full of energy.
-
-                    Join us on the river—where every horizon brings a new challenge, a new memory,
-                    and a new story to
-                    tell.</p>
-            </article>
-        </div>
-
-        <section class="history">
-            <h2>History</h2>
-            <div class="history-grid">
-                <p>Whitewater Horizons began with a simple idea: to share the thrill of the river
-                    with
-                    everyone who
-                    craves adventure. Founded by outdoor enthusiasts who believed that rafting is
-                    more
-                    than just a
-                    sport—it is a way to connect with nature and with each other.</p>
-                <img src="images/history.jpg" alt="History - Rafting">
-                <p>From our humble beginnings with one raft and a passion for the outdoors, we have
-                    grown into a
-                    premier rafting company dedicated to providing safe, exciting, and memorable
-                    experiences for
-                    families, friends, and adventure seekers of all levels.</p>
+        <section class="contact-info">
+            <h1>White Water Rafting Company</h1>
+            <div class="company-details">
+                <p><strong>123 Lekki Street</strong></p>
+                <p><strong>Lagos, Nigeria</strong></p>
+                <p><strong>+234 999 999 9999</strong></p>
+                <p><strong>info@whitewater.com</strong></p>
             </div>
         </section>
-        <section class="adventure">
-            <h2> Adventure Awaits You!</h2>
-            <div class="adventure-grid">
+
+        <div class="contact-grid">
+            <!-- Google Map -->
+            <div class="map-container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1017785.3012264122!2d7.004796499999999!3d4.8174104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1791578973909!5m2!1sen!2sng"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin" class="contact-map">
+                </iframe>
+            </div>
+            <!-- Contact Form -->
+            <form class="contact-form" action="#" method="post">
+                <div class="form-item">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Placeholder" required>
+                </div>
+
+                <div class="form-item">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Placeholder" required>
+                </div>
+
+                <fieldset class="form-item">
+                    <legend>Message Purpose</legend>
+                    <label>
+                        <input type="radio" id="general" name="purpose" value="general" required>
+                        General Inquiry
+                    </label>
+                    <label>
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        Reservation Question
+                    </label>
+                    <label>
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        Website Suggestion
+                    </label>
+                </fieldset>
+
+                <div class="form-item">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Type here"
+                      required></textarea>
+                </div>
+
+                <div class="form-item checkbox-item">
+                    <label for="newsletter">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        Please Subscribe me to the monthly newsletter
+                    </label>
+                </div>
+
+                <button type="submit" class="submit-button">Get in Touch!</button>
+            </form>
+        </div>
+
+        <!-- Employee Profiles Section -->
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-grid">
                 <figure>
-                    <img src="images/adventure1.jpg" alt="Enjoy the Rushing Rapids">
-                    <figcaption>Enjoy the Rushing Rapids</figcaption>
+                    <img src="images/employee1.jpg" alt="Okonkwo Chiamaka - Lead River Guide">
+                    <figcaption>Okonkwo Chiamaka<br>Lead River Guide</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/adventure2.jpg" alt="Dive into the Wild">
-                    <figcaption>Dive into the Wild</figcaption>
+                    <img src="images/employee2.jpg" alt="Michael Nwachukwu - Operations Manager">
+                    <figcaption>Michael Nwachukwu<br>Operations Manager</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/adventure3.jpg" alt="Experience Nature’s Challenge">
-                    <figcaption>Experience Nature’s Challenge</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/adventure4.jpg" alt="Escape the Ordinary">
-                    <figcaption>Escape the Ordinary</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/adventure5.jpg" alt="Your Journey begins here">
-                    <figcaption>Your Journey begins here...</figcaption>
+                    <img src="images/employee3.webp"
+                      alt="Ian Osakpolor - Customer Experience Director">
+                    <figcaption>Ian Osakpolor<br>Customer Experience Director</figcaption>
                 </figure>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>©️ | 2026| White Water Horizons | Angel Chizaram</p>
+        <p>©️ | 2026 | White Water Horizons | Angel Chizaram</p>
         <nav class="socialmedia">
             <a href="https://facebook.com">
                 <img src="images/facebookbw.svg" alt="Facebook Icon" width="50">
