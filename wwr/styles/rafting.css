@@ -98,8 +98,6 @@ body {
     margin: 0 auto;
 }
 
-/* --- CONTACT PAGE SPECIFIC --- */
-
 .contact-info {
     text-align: center;
     margin: 20px 0;
@@ -119,7 +117,6 @@ body {
     line-height: 1.4;
 }
 
-/* Grid: Map left, Form right - matches wireframe */
 .contact-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -136,8 +133,7 @@ body {
 .contact-map {
     width: 100%;
     height: 380px;
-    border: 1px solid #ccc;
-    /* styled here, not inline */
+    border: 0;
 }
 
 /* Form styling */
