@@ -35,8 +35,8 @@ h2 {
 }
 
 h1 {
-    position: absolute;
-    top: 20px;
+    position: relative;
+    top: 2px;
     width: 100%;
     padding: 16px;
     text-align: center;
