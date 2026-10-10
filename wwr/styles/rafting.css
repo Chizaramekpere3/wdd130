@@ -572,6 +572,140 @@ article img {
     margin-bottom: 10px;
 }
 
+/*--TRIPS--*/
+.trips-hero {
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+}
+
+.trips-hero h1 {
+    color: var(--accent2-color);
+    position: static;
+    background: none;
+    opacity: 1;
+    width: auto;
+    padding: 0;
+    font-size: 2rem;
+}
+
+.trips-hero p {
+    color: var(--secondary-color);
+    margin: 10px 0 20px;
+}
+
+.trips-cta-btn,
+.cta-button-large {
+    display: inline-block;
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.trips-cta-btn:hover,
+.cta-button-large:hover {
+    background-color: white;
+}
+
+.trip-cards {
+    display: grid;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.trip-card {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+.trip-card.reverse {
+    grid-template-columns: 1.2fr 1fr;
+}
+
+.trip-card.reverse img {
+    order: 2;
+}
+
+.trip-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border: 3px solid var(--accent2-color);
+}
+
+.trip-info h2 {
+    text-align: left;
+    margin-bottom: 10px;
+    color: var(--accent1-color);
+}
+
+.trip-info ul {
+    margin: 10px 0 10px 20px;
+    font-size: 0.9rem;
+}
+
+.price {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 4px;
+}
+
+.trips-table-section {
+    margin: 40px 0;
+    padding: 15px;
+}
+
+.trips-table-section h2 {
+    margin-bottom: 15px;
+}
+
+.trips-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+.trips-table th,
+.trips-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.trips-table th {
+    background-color: var(--accent1-color);
+    color: white;
+}
+
+.trips-table tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.trips-contact-cta {
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.trips-contact-cta h2 {
+    margin-bottom: 10px;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
